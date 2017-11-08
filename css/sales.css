@@ -1,0 +1,28 @@
+.btn-group .btn {
+    background-color:#fff !important;
+    color: black;
+}
+
+.btn-group .btn.active {
+    background-color:#b04632 !important;
+    color: white;
+}
+
+.btn-group .btn:hover {
+    background-color: #c58579 !important;
+    color:white;
+}
+
+.selectedParam {
+    background-color: #b04632;
+}
+
+.selectedJavascriptfield {
+    background-color: #b04632;
+    color:white;
+}
+
+#trelloKartenPrefix {
+    background-color: #b04632 !important;
+    color:white;
+}

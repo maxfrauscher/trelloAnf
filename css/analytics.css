@@ -1,0 +1,24 @@
+.btn-group .btn {
+    background-color:#fff !important;
+    color: black;
+}
+
+.btn-group .btn.active {
+    background-color:#0079bf !important;
+    color: white;
+}
+
+
+.btn-group .btn:hover {
+    background-color: #5ca5d0 !important;
+    color:white;
+}
+
+.selectedParam {
+    background-color: #0079bf;
+}
+
+#trelloKartenPrefix {
+    background-color: #0079bf !important;
+    color:white;
+}

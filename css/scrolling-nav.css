@@ -1,0 +1,192 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family:"Helvetica Neue";
+}
+
+.has-error {
+    color: #b04632 ;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.konto {
+    font-size: 26px;
+    width: 250px;
+    height: 100px;
+    margin-right:10px;
+    line-height: 100px;
+    border:0px;
+}
+
+.btn.btn-primary {
+    margin: 2px;
+}
+
+.konto:focus {
+  outline-color: transparent;
+  outline-style: none;
+}
+#kontoSwitcher {
+    padding-top: 10px;
+
+}
+
+#salesButton {
+    background-color:#b04632 !important;
+    color:white;
+}
+
+#analyticsButton {
+    background-color:#0079bf !important;
+    color: white;
+}
+
+.dropdown-menuKonto {
+    width: auto !important;
+    height: auto !important;
+    box-shadow: none !important;
+    border: none !important;
+    background-color: transparent !important;
+    margin: 0px !important;
+}
+
+.konto.active {
+    border-bottom: 6px solid black;
+}
+
+.konto.sales {
+    background-color: #b04632 !important;
+}
+
+.konto.analytics {
+     background-color:#0079bf !important;
+}
+
+.analytics {
+     background-color:#0079bf !important;
+}
+
+.sales:hover {
+    background-color: #c58579 !important;
+}
+
+.analytics:hover {
+    background-color: #5ca5d0 !important;
+}
+
+
+
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children
+of those sections to manage the look and feel of the site. */
+.auswahl-section {
+    height: 100%;
+    padding-top: 80px;
+    text-align: center;
+    background: #fff;
+}
+
+
+.anforderungs-section {
+    height: 100%;
+    padding-top: 80px;
+    text-align: left;
+    background: #fff;
+}
+
+.portal-section {
+    height: 100%;
+    padding-top: 80px;
+    text-align: left;
+    background: #eee;
+}
+
+.checkoutStep {
+    display:none;
+}
+
+.containerAuswahl {
+    display:none;
+}
+
+.selected {
+    display:block;
+}
+
+
+.seitenbeschreibung-section {
+    padding-top: 80px;
+    text-align: left;
+    background: #fff;
+}
+
+.ga-section {
+    padding-top: 80px;
+    text-align: left;
+    background: #eee;
+}
+.gaParam-section {
+    padding-top: 80px;
+    text-align: left;
+    background: #fff;
+}
+
+.script-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: left;
+    background: #eee;
+}
+
+.param-section {
+    padding-top: 80px;
+
+    text-align: left;
+    background: #fff;
+}
+
+.trigger-section {
+    padding-top: 80px;
+    text-align: left;
+    background: #eee;
+}
+
+.sendData-section {
+    padding-top: 80px;
+    text-align: center;
+    background: #fff;
+}
+
+.section {
+    min-height: 100%;
+    padding-bottom: 80px;
+    height: auto !important;
+}
+
+.container {
+
+}
